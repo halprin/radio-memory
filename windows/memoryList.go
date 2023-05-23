@@ -23,12 +23,12 @@ func (receiver MemoryList) eventLoop() {
 		switch event := event.(type) {
 		case system.FrameEvent:
 			receiver.draw()
-			case system.DestroyEvent:
-				log.Println("Destroying the memory list window")
-				if event.Err != nil {
-					log.Fatal(event.Err)
-				}
-				return
+		case system.DestroyEvent:
+			log.Println("Destroying the memory list window")
+			if event.Err != nil {
+				log.Fatal(event.Err)
+			}
+			return
 		}
 	}
 }
