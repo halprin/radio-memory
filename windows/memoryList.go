@@ -31,8 +31,8 @@ type MemoryList struct {
 
 func (receiver MemoryList) Display() {
 	log.Println("Starting the memory list window")
+	receiver.radio = radio.YaesuFtm500D{SdCardMemoryPath: "/Users/halprin/Desktop/MEMFTM500D.dat"}
 
-	receiver.radio = radio.YaesuFtm500D{SdCardMemoryPath: "~/Desktop/radio_memories.dat"}
 	var err error
 	receiver.memories, err = receiver.radio.ReadMemories()
 	if err != nil {
