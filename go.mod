@@ -2,7 +2,7 @@ module github.com/halprin/radio-memory
 
 go 1.20
 
-require gioui.org v0.0.0-20230512135434-8571b25ff7cb
+require gioui.org v0.0.0-20230526230622-e3ef98dda382
 
 require (
 	gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 // indirect
