@@ -79,7 +79,7 @@ func (receiver MemoryList) draw(event system.FrameEvent) {
 		layout.Rigid(func(context layout.Context) layout.Dimensions {
 			themedList := material.List(receiver.theme, receiver.list)
 			return themedList.Layout(context, len(receiver.memories), func(context layout.Context, index int) layout.Dimensions {
-				listItem := material.H3(receiver.theme, fmt.Sprintf("%f", receiver.memories[index].FrequencyRx))
+				listItem := material.H3(receiver.theme, fmt.Sprintf("%d. %f", index+1, receiver.memories[index].FrequencyRx))
 				return listItem.Layout(context)
 			})
 		}))
