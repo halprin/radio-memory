@@ -11,6 +11,8 @@ gioui.org v0.0.0-20230611141527-3bb6cca15710 h1:xYPOWMOe1sFVD8jGc1A8g6di1B5zUicb
 gioui.org v0.0.0-20230611141527-3bb6cca15710/go.mod h1:a3hz8FyrPMkt899D9YrxMGtyRzpPrJpz1Lzbssn81vI=
 gioui.org v0.0.0-20230627103614-e5fe3a0732f4 h1:ZkFOs0eyTIyGgZ0xkGl95h+4DnITdUKg0Mp78+h8GnM=
 gioui.org v0.0.0-20230627103614-e5fe3a0732f4/go.mod h1:a3hz8FyrPMkt899D9YrxMGtyRzpPrJpz1Lzbssn81vI=
+gioui.org v0.0.0-20230701070506-cc2d2c0abf3b h1:EF1K6UJT/lc4LunDNfuL4Da7s7OAGLby1NaxtoEc1Hk=
+gioui.org v0.0.0-20230701070506-cc2d2c0abf3b/go.mod h1:a3hz8FyrPMkt899D9YrxMGtyRzpPrJpz1Lzbssn81vI=
 gioui.org/cpu v0.0.0-20210808092351-bfe733dd3334/go.mod h1:A8M0Cn5o+vY5LTMlnRoK3O5kG+rH0kWfJjeKd9QpBmQ=
 gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 h1:AGDDxsJE1RpcXTAxPG2B4jrwVUJGFDjINIPi1jtO6pc=
 gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2/go.mod h1:A8M0Cn5o+vY5LTMlnRoK3O5kG+rH0kWfJjeKd9QpBmQ=
